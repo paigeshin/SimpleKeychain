@@ -5,7 +5,7 @@ Simple Keychain Wrapper Library
 # Installation
 
 ```bash
-https://github.com/paigeshin/SimpleKeychain/edit/master/README.md
+https://github.com/paigeshin/SimpleKeychain
 ```
 
 # Optional

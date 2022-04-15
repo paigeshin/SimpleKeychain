@@ -7,16 +7,17 @@ Simple Keychain Wrapper Library
 You can set service name by doing this
 
 ```swift
-Keychain.shared.changeServiceName("My App Roject")
+Keychain.shared.changeServiceName("My App Project")
 ```
 
 # Usage
 
 ```swift
-// set 
+// set
 guard let data: Data = "any string".data(using: .utf8) else { return }
-try? keychainWrapper.set(value: data, account: "any string key")
+try? Keychain.shared.set(value: data, account: "any string key")
 
 // get 
-try? keychainWrapper.get(account: "any string key")
+let value = try? Keychain.shared.get(account: "any string key")
+print(String(data: value!, encoding: .utf8))
 ```

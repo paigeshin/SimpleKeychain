@@ -2,6 +2,12 @@
 
 Simple Keychain Wrapper Library
 
+# Installation
+
+```bash
+https://github.com/paigeshin/SimpleKeychain/edit/master/README.md
+```
+
 # Optional
 
 You can set service name by doing this
